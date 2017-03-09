@@ -99,6 +99,7 @@ public class JobData {
             String aValue = row.toString();
 
             if(aValue.toLowerCase().contains(aValue.toLowerCase())){
+
                 jobs.add(row);
             }
 
